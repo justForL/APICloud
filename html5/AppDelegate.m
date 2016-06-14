@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "APIManager.h"
+#import "UZAppUtils.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[APIManager manager] initSDKWithLaunchOptions:launchOptions];
+    ViewController *controller = [[ViewController alloc] init];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:controller];
+    navi.navigationBar.barTintColor = [UZAppUtils colorFromNSString:@"#078f5f"];
+    navi.navigationBar.translucent = NO;
+    navi.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

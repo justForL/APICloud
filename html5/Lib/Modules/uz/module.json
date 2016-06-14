@@ -1,0 +1,6 @@
+[{
+    "name":"push",
+    "class":"UZPush",
+    "methods":["bind","unbind","joinGroup","leaveGroup","leaveAllGroup","setListener","removeListener","setPreference"]
+}
+]

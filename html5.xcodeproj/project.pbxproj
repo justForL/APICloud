@@ -13,6 +13,16 @@
 		1851E6831D1043B4003AF798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851E6811D1043B4003AF798 /* Main.storyboard */; };
 		1851E6851D1043B4003AF798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1851E6841D1043B4003AF798 /* Assets.xcassets */; };
 		1851E6881D1043B4003AF798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851E6861D1043B4003AF798 /* LaunchScreen.storyboard */; };
+		1851E6A11D1048D1003AF798 /* APICloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6911D1048D1003AF798 /* APICloud.a */; };
+		1851E6AD1D104A92003AF798 /* libminizip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6A51D104A92003AF798 /* libminizip.a */; };
+		1851E6AE1D104A92003AF798 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6A61D104A92003AF798 /* libopencore-amrnb.a */; };
+		1851E6AF1D104A92003AF798 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6A71D104A92003AF798 /* libopencore-amrwb.a */; };
+		1851E6B01D104A92003AF798 /* push.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6A81D104A92003AF798 /* push.a */; };
+		1851E6B51D104AB2003AF798 /* uz in Resources */ = {isa = PBXBuildFile; fileRef = 1851E6B41D104AB2003AF798 /* uz */; };
+		1851E6B71D104BD0003AF798 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6B61D104BD0003AF798 /* WebKit.framework */; };
+		1851E6B91D104BD9003AF798 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6B81D104BD9003AF798 /* libz.tbd */; };
+		1851E6BB1D104BEE003AF798 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6BA1D104BEE003AF798 /* libicucore.A.tbd */; };
+		1851E6BD1D104C23003AF798 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851E6BC1D104C23003AF798 /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,30 @@
 		1851E6841D1043B4003AF798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1851E6871D1043B4003AF798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1851E6891D1043B4003AF798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1851E6911D1048D1003AF798 /* APICloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = APICloud.a; sourceTree = "<group>"; };
+		1851E6921D1048D1003AF798 /* APIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIEvent.h; sourceTree = "<group>"; };
+		1851E6931D1048D1003AF798 /* APIExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIExport.h; sourceTree = "<group>"; };
+		1851E6951D1048D1003AF798 /* NSDictionaryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryUtils.h; sourceTree = "<group>"; };
+		1851E6961D1048D1003AF798 /* UZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppDelegate.h; sourceTree = "<group>"; };
+		1851E6971D1048D1003AF798 /* UZAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppUtils.h; sourceTree = "<group>"; };
+		1851E6981D1048D1003AF798 /* UZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZModule.h; sourceTree = "<group>"; };
+		1851E6991D1048D1003AF798 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		1851E69A1D1048D1003AF798 /* APIModuleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIModuleMethod.h; sourceTree = "<group>"; };
+		1851E69B1D1048D1003AF798 /* APIScriptMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIScriptMessage.h; sourceTree = "<group>"; };
+		1851E69C1D1048D1003AF798 /* APIUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUpdateManager.h; sourceTree = "<group>"; };
+		1851E69D1D1048D1003AF798 /* APIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWebView.h; sourceTree = "<group>"; };
+		1851E69E1D1048D1003AF798 /* APIWidgetContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWidgetContainer.h; sourceTree = "<group>"; };
+		1851E69F1D1048D1003AF798 /* APIWindowContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWindowContainer.h; sourceTree = "<group>"; };
+		1851E6A01D1048D1003AF798 /* UZWebViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZWebViewProtocol.h; sourceTree = "<group>"; };
+		1851E6A51D104A92003AF798 /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminizip.a; sourceTree = "<group>"; };
+		1851E6A61D104A92003AF798 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		1851E6A71D104A92003AF798 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		1851E6A81D104A92003AF798 /* push.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = push.a; sourceTree = "<group>"; };
+		1851E6B41D104AB2003AF798 /* uz */ = {isa = PBXFileReference; lastKnownFileType = folder; path = uz; sourceTree = "<group>"; };
+		1851E6B61D104BD0003AF798 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1851E6B81D104BD9003AF798 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1851E6BA1D104BEE003AF798 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		1851E6BC1D104C23003AF798 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1851E6BD1D104C23003AF798 /* libstdc++.tbd in Frameworks */,
+				1851E6BB1D104BEE003AF798 /* libicucore.A.tbd in Frameworks */,
+				1851E6B91D104BD9003AF798 /* libz.tbd in Frameworks */,
+				1851E6B71D104BD0003AF798 /* WebKit.framework in Frameworks */,
+				1851E6B01D104A92003AF798 /* push.a in Frameworks */,
+				1851E6AD1D104A92003AF798 /* libminizip.a in Frameworks */,
+				1851E6AE1D104A92003AF798 /* libopencore-amrnb.a in Frameworks */,
+				1851E6AF1D104A92003AF798 /* libopencore-amrwb.a in Frameworks */,
+				1851E6A11D1048D1003AF798 /* APICloud.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +101,7 @@
 		1851E6771D1043B4003AF798 /* html5 */ = {
 			isa = PBXGroup;
 			children = (
+				1851E68F1D10443D003AF798 /* Lib */,
 				1851E67B1D1043B4003AF798 /* AppDelegate.h */,
 				1851E67C1D1043B4003AF798 /* AppDelegate.m */,
 				1851E67E1D1043B4003AF798 /* ViewController.h */,
@@ -77,6 +121,69 @@
 				1851E6791D1043B4003AF798 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1851E68F1D10443D003AF798 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1851E6BE1D104C2B003AF798 /* framework */,
+				1851E6A41D104A92003AF798 /* Modules */,
+				1851E6901D1048D1003AF798 /* Engine */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		1851E6901D1048D1003AF798 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1851E6911D1048D1003AF798 /* APICloud.a */,
+				1851E6921D1048D1003AF798 /* APIEvent.h */,
+				1851E6931D1048D1003AF798 /* APIExport.h */,
+				1851E6941D1048D1003AF798 /* APIKit */,
+				1851E6991D1048D1003AF798 /* APIManager.h */,
+				1851E69A1D1048D1003AF798 /* APIModuleMethod.h */,
+				1851E69B1D1048D1003AF798 /* APIScriptMessage.h */,
+				1851E69C1D1048D1003AF798 /* APIUpdateManager.h */,
+				1851E69D1D1048D1003AF798 /* APIWebView.h */,
+				1851E69E1D1048D1003AF798 /* APIWidgetContainer.h */,
+				1851E69F1D1048D1003AF798 /* APIWindowContainer.h */,
+				1851E6A01D1048D1003AF798 /* UZWebViewProtocol.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		1851E6941D1048D1003AF798 /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1851E6951D1048D1003AF798 /* NSDictionaryUtils.h */,
+				1851E6961D1048D1003AF798 /* UZAppDelegate.h */,
+				1851E6971D1048D1003AF798 /* UZAppUtils.h */,
+				1851E6981D1048D1003AF798 /* UZModule.h */,
+			);
+			path = APIKit;
+			sourceTree = "<group>";
+		};
+		1851E6A41D104A92003AF798 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1851E6B41D104AB2003AF798 /* uz */,
+				1851E6A51D104A92003AF798 /* libminizip.a */,
+				1851E6A61D104A92003AF798 /* libopencore-amrnb.a */,
+				1851E6A71D104A92003AF798 /* libopencore-amrwb.a */,
+				1851E6A81D104A92003AF798 /* push.a */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1851E6BE1D104C2B003AF798 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				1851E6B61D104BD0003AF798 /* WebKit.framework */,
+				1851E6BC1D104C23003AF798 /* libstdc++.tbd */,
+				1851E6BA1D104BEE003AF798 /* libicucore.A.tbd */,
+				1851E6B81D104BD9003AF798 /* libz.tbd */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1851E6881D1043B4003AF798 /* LaunchScreen.storyboard in Resources */,
+				1851E6B51D104AB2003AF798 /* uz in Resources */,
 				1851E6851D1043B4003AF798 /* Assets.xcassets in Resources */,
 				1851E6831D1043B4003AF798 /* Main.storyboard in Resources */,
 			);
@@ -264,8 +372,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = html5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/html5/Lib/Engine",
+					"$(PROJECT_DIR)/html5/Lib/Modules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jg.html5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -275,8 +390,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = html5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/html5/Lib/Engine",
+					"$(PROJECT_DIR)/html5/Lib/Modules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jg.html5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
